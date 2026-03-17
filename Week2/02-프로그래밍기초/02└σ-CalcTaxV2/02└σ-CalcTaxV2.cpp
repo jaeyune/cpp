@@ -3,7 +3,7 @@ void main()
 {
 	int income, in;
 	double tax = 0;
-	printf("¿¬ºÀÀ» ÀÔ·ÂÇÏ¼¼¿ä ==> ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ ==> ");
 	scanf("%d", &income);
 	in = income;
 
@@ -24,6 +24,6 @@ void main()
 		income = 1200;
 	}
 	tax += income*0.06;
-	printf(" ÀüÃ¼¼¼±ÝÀº %7.1f¸¸¿øÀÔ´Ï´Ù.\n", tax);
-	printf(" ¼ø¼ö¼ÒµæÀº %7.1f¸¸¿øÀÔ´Ï´Ù.\n", in - tax);
+	printf(" ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %7.1fï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.\n", tax);
+	printf(" ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ %7.1fï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.\n", in - tax);
 }

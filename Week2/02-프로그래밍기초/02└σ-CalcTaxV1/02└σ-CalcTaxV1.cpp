@@ -3,7 +3,7 @@ void main()
 {
 	int income;
 	double tax = 0;
-	printf("¿¬ºÀÀ» ÀÔ·ÂÇÏ¼¼¿ä ==> ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ ==> ");
 	scanf("%d", &income);
 
 	if (income <= 1200) {
@@ -21,6 +21,6 @@ void main()
 	if (15000 < income) {
 		tax = 1200 * 0.06 + (4600 - 1200)* 0.15 + (8800 - 4600)*0.24 + (15000 - 8800)*0.35 + (income - 15000)*0.38;
 	}
-	printf(" ÀüÃ¼¼¼±ÝÀº %7.1f¸¸¿øÀÔ´Ï´Ù.\n", tax);
-	printf(" ¼ø¼ö¼ÒµæÀº %7.1f¸¸¿øÀÔ´Ï´Ù.\n", income - tax);
+	printf(" ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %7.1fï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.\n", tax);
+	printf(" ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ %7.1fï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.\n", income - tax);
 }
